@@ -2,7 +2,7 @@
 	
 	2nd_place      user_name      total$      PlayerScore      print      _status
 
-Answer: user_name, PlayerScore, p
+Answer: user_name, PlayerScore, _status
 
 	2. To join a string and a variable together in a print() statement, we use:
 	A) A dash (-)
@@ -36,7 +36,7 @@ Answer: user_name, PlayerScore, p
 	
 	
 	6. Complete this line to ask the user for their favorite color and store it in a variable:
-	favourite_colour = _________ ("What is your favorite color? ")
+	favourite_colour = input("What is your favorite color? ")
 	
 	
 	
@@ -45,7 +45,7 @@ Answer: user_name, PlayerScore, p
 	B) print("Hello")
 	C) input("Hello")
 
-	Answer: 
+	Answer: B
 	
 
 
@@ -57,7 +57,10 @@ Answer: user_name, PlayerScore, p
 	Requirement: Use one single print() statement to output: "Hello [First Name] [Surname], welcome to [City]!"
 
 	Answer: 
-	
+firstName = input("what is your first name?")
+secondName = input("what's your second name?")
+city = input("which city are you in now?")
+print("Hello,", firstName, secondName, "welcome to", city + "!"
 
 
 9.        Look at this code:
