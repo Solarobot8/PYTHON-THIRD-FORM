@@ -1,0 +1,54 @@
+Q1.  
+code = "python"
+user = input("Enter the secret code: ")
+
+if user == "python":
+    print("Access granted")
+
+
+Q2. 
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even number")
+
+
+Q3.
+age = int(input("how old are you?"))
+if age >= 13:
+    print("teenager")
+else:
+    print("child")
+
+Q4.
+password = input("Enter password")
+correctPassword = "admin123"
+if password == correctPassword:
+    print("Access granted")
+else:
+    print("Access denied")
+
+Q5.
+total = float(input("please enter the total cost of shopping"))
+if total > 100:
+    discounted = total * 0.9
+    print(discounted)
+else:
+    print(total)
+
+Q6.
+username = input("input username")
+if username == "admin":
+    print("welcome admin")
+else:
+    print("Access limited")
+
+
+
+
+
+
+
+
+
+    
