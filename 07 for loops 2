@@ -1,0 +1,46 @@
+Q1
+c
+a
+t
+
+Q2
+
+word = "banana"
+count = 0 
+for char in word:
+  if char == "a"
+    count = count +1
+print(count)
+
+Q3
+
+the loop iterates for each character of the word dog and then prints each character on a new line
+
+Q4
+
+the student printed char instead of count, they need to put count in the print function
+word = "cheese"
+count = 0
+for char in word:
+    if char == "e":
+        count = count + 1
+print(count)
+
+
+Q5 
+
+word = "Python"
+for i in word:
+  print(i)
+
+
+Q6 
+
+word = "apple"
+for i in word:
+  if i == "a" or i == "e" or i == "i" or i == "o" or i == "u":
+    print("Match")
+  else:
+    print("No match")
+
+
