@@ -1,0 +1,46 @@
+import random
+
+number=random.randint(1,10)
+guess=int(input("Guess the number between 1-10"))
+
+# Add one line of code here to allow the user to
+#..guess the random number multiple times
+# Hint: You might need to indent some code
+while guess != number:
+  if number < guess:
+      guess=int(input("Guess to High, try again: "))
+  else:
+      guess=int(input("Guess to Low, try again: "))
+
+print("Yay! You got it correct!!!")
+
+
+
+firstName = input("what is your first name?")
+secondName = input("what's your second name?")
+city = input("which city are you in now?")
+print("Hello,", firstName, secondName, "welcome to", city + "!"
+
+
+item = input("what is the item?")
+price = float(input("how much does it cost"))
+discount = price*0.9
+print("the new price for", item, "is", discount)
+
+
+
+age = int(input("how old are you"))
+if age < 5:
+    print("free")
+elif age < 18:
+    print("£5")
+else:
+    print("£10")
+
+word = "apple"
+for i in word:
+  if i == "a" or i == "e" or i == "i" or i == "o" or i == "u":
+    print("Match")
+  else:
+    print("No match")
+
